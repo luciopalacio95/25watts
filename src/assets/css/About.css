@@ -1,0 +1,31 @@
+.about{
+    top: 1440px;
+    left: 0px;
+    width: 1366px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.line__about{
+    position: absolute;
+    left: 0px;
+    width: 24px;
+    height: 504px;
+    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.title__about{
+    text-align: left;
+}
+.title__color{
+    color: #E0752F;
+    line-height: 1;
+}
+.subtitle__about{
+    margin-top: 10%;
+    text-align: left;
+    padding-right: 14%;
+}

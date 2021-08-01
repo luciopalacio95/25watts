@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  overflow-x: hidden;
+}
 
 :root {
 
@@ -81,7 +84,10 @@
   color: var(--unnamed-color-343434);
   }
   .contenedores{
-    padding:5%;
+    padding:7%;
+  }
+  .rowse{
+    padding: 0 8%;
   }
   .title__general{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-poppins);
@@ -103,4 +109,24 @@
     letter-spacing: 0.22px;
     color: #343434;
     opacity: 1;
+  }
+  .btn__general{
+    padding: 1.8% 5.5%;
+    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border: none;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 5%;
+  }
+  a:hover{
+    color: #E0752F !important;
   }

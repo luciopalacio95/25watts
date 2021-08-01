@@ -1,0 +1,34 @@
+[
+    {
+      "title": "More details",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,",
+      "details": [
+        {
+            "icon_src" : "./images/Icon awesome-anchor.svg",
+            "text" : "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper."
+        },
+        {
+            "icon_src" : "./images/Icon awesome-bell.svg",
+            "text" : "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper."
+        },
+        {
+            "icon_src" : "./images/Icon awesome-bookmark.svg",
+            "text" : "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper."
+        },
+        {
+            "icon_src" : "./images/Icon awesome-bandcamp.svg",
+            "text" : "Donec egestas tortor quis turpis finibus."
+        },
+        
+        {
+            "icon_src" : "./images/Icon awesome-brush.svg",
+            "text" : "Donec egestas tortor quis turpis finibus."
+        },
+          
+        {
+            "icon_src" : "./images/Icon awesome-box-open.svg",
+            "text" : "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper."
+        }
+      ]
+    }
+  ]

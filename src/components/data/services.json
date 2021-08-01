@@ -1,7 +1,24 @@
 [
-  
   {
     "title": "Services",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,"
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,",
+    "services": [
+      {
+        "icon_src" : "./images/Icon awesome-globe-americas.svg",
+        "text" : "Stet clita kasd gubergren"
+      },
+      {
+        "icon_src" : "./images/Icon awesome-cloud-upload-alt.svg",
+        "text" : "At vero eos et accusam"
+      },
+      {
+        "icon_src" : "./images/Icon awesome-headset.svg",
+        "text" : "Sed ut perspiciatis unde"
+      },
+      {
+        "icon_src" : "./images/Icon awesome-user-friends.svg",
+        "text" : "Lorem ipsum dolor sit amet"
+      }
+    ]
   }
 ]

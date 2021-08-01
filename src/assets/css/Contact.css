@@ -1,0 +1,21 @@
+.contact{
+    background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 50%);
+    opacity: 1;
+}
+
+.title__contact{
+    text-align: left;
+}
+
+.line__contact{
+    position: absolute;
+    right: 0px;
+    width: 24px;
+    height: 504px;
+    background: var(--unnamed-color-dce1da) 0% 0% no-repeat padding-box;
+    background: #DCE1DA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.img__contact{
+    width: 100%;
+}

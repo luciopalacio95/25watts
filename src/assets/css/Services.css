@@ -1,4 +1,4 @@
-.Services{
+.services{
     top: 1440px;
     left: 0px;
     width: 1366px;
@@ -11,11 +11,29 @@
     top: 2127px;
     left: 299px;
     width: 100%;
-    height: 55px;
 }
 .subtitle__services{
     top: 2919px;
     left: 299px;
-    width: 100%;
-    height: 49px;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.icon__service{
+    opacity: 1;
+    margin: 20% auto;
+    display: block;
+}
+
+.text__service{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-21)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0-29);
+    color: var(--unnamed-color-343434);
+    text-align: center;
+    font: normal normal 600 21px/28px Poppins;
+    letter-spacing: 0.29px;
+    color: #343434;
+    opacity: 1;
+    padding: 0 8%;
 }

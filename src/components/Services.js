@@ -1,31 +1,22 @@
-
-async function request(){
-  let url = new URL("https://raw.githubusercontent.com/luciopalacio95/25watts/main/src/components/data/services.json");
-  await fetch(url)
-  .then(res=>res.json())
-.then(function(res) {
-console.log(res);
-}).catch(function(error) {
-  
-  });
-}
+import info from './data/services.json';
 
 function Services() {
-    
-    const datos = request();
-    console.log(datos);
+  const servicios = info.[0].services;
     return (
-      <div className="container-fluid contenedores Services" id="services">
-        <div className="row">
+      <div className="container-fluid contenedores services" id="services">
+        <div className="row rowse">
           <div className="col-md-12">
-            <h1 className="title__general title__services">Services</h1>
-            <p className="subtitle__general subtitle__services">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse <br></br> congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,</p>
+            <h1 className="title__general title__services">{info.[0].title}</h1>
+            <p className="subtitle__general subtitle__services">{info.[0].subtitle}</p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-4">
-
-          </div>
+        <div className="row rowse">
+          {servicios.map((item, i) => 
+            <div className="col-md-3" key={i}>
+                <img src={item.icon_src} className="icon__service" alt="25watts"/>
+                <p className="text__service">{item.text}</p>
+            </div>
+          )}
         </div>
       </div>
     );

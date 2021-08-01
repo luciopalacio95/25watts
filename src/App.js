@@ -8,7 +8,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/css/About.css';
 import './assets/css/Services.css';
+import './assets/css/Details.css';
+import './assets/css/Contact.css';
+import './assets/css/Footer.css';
 
 function App() {
   return (

@@ -1,0 +1,51 @@
+[
+    {
+      "logo": "./images/logo_25w.svg",
+      "coopiright": "2020 © All rights reserved.",
+      "navegation": [
+        {
+          "section" : "About",
+          "link" : "about"
+        },
+        {
+          "section" : "Details",
+          "link" : "details"
+        },
+        {
+          "section" : "Services",
+          "link" : "services"
+        },
+        {
+          "section" : "Contact",
+          "link" : "contact"
+        },
+        {
+          "section" : "Products",
+          "link" : "productos"
+        }
+      ],
+      "text_social":"Follow us",
+      "social": [
+        {
+          "icon_src" : "./images/Icon simple-instagram.svg",
+          "link" : "/"
+        },
+        {
+          "icon_src" : "./images/Icon ionic-logo-facebook.svg",
+          "link" : "/"
+        },
+        {
+          "icon_src" : "./images/Icon simple-twitter.svg",
+          "link" : "/"
+        },
+        {
+          "icon_src" : "./images/Icon simple-youtube.svg",
+          "link" : "/"
+        },
+        {
+          "icon_src" : "./images/Icon awesome-linkedin-in.svg",
+          "link" : "/"
+        }
+      ]
+    }
+  ]
