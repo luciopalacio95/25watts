@@ -1,29 +1,19 @@
-import React,{useState,useEffect} from 'react';
+
+async function request(){
+  let url = new URL("https://raw.githubusercontent.com/luciopalacio95/25watts/main/src/components/data/services.json");
+  await fetch(url)
+  .then(res=>res.json())
+.then(function(res) {
+console.log(res);
+}).catch(function(error) {
+  
+  });
+}
 
 function Services() {
-  const [data,setData]=useState([]);
-  const getData=()=>{
-    fetch('data/services.json'
-    ,{
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    }
-    )
-      .then(function(response){
-        console.log(response)
-        return response.json();
-      })
-      .then(function(myJson) {
-        console.log(myJson);
-        setData(myJson)
-      });
-  }
-  useEffect(()=>{
-    getData()
-  },[]);
-  console.log(data);
+    
+    const datos = request();
+    console.log(datos);
     return (
       <div className="container-fluid contenedores Services" id="services">
         <div className="row">
