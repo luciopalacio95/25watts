@@ -1,0 +1,32 @@
+    [
+    {
+        "logo": "./images/logo_25w.svg",
+        "navegation": [
+        {
+            "section" : "Home",
+            "link" : "home"
+        },
+        {
+            "section" : "About",
+            "link" : "about"
+        },
+        {
+            "section" : "Services",
+            "link" : "services"
+        },
+        {
+            "section" : "Products",
+            "link" : "products"
+            },
+        {
+            "section" : "Details",
+            "link" : "details"
+            },
+
+        {
+            "section" : "Contact",
+            "link" : "contact"
+        }
+        ]
+    }
+]

@@ -7,9 +7,15 @@ function Footer() {
       <div className="container-fluid contenedores footer">
           <div className="row rowse">
             <div className="col-md-3">
-            <a href="https://www.25watts.com.ar/" target="_blank" rel="noreferrer">
-              <img src={info[0].logo} className="img__footer" alt="25watts"/>
-            </a>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={200}
+              >
+                <img src={info[0].logo} className="img__footer" alt="25watts"/>
+              </Link>
               <p className="coopiright__footer">{info[0].coopiright}</p>
             </div>
             <div className="col-md-4">

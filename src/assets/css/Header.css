@@ -1,0 +1,89 @@
+.navbar {
+    background: transparent;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: all 0.4s ease-out;
+    border-bottom: 1px solid #E0752F;
+    padding-bottom: 0;
+    padding: 0% 8%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.navbar.active{
+    background: #E0752F;
+    transition: all 0.4s ease-out;
+    padding-top: 0;
+    color: #fff;
+}
+
+
+.navbar.active .navbar-logo .navbar-logo-icon{
+    width: 129px;
+    height: 30px;
+}
+
+.navbar-logo-icon{
+    width: 129px;
+    height: 30px;
+    margin-left: -18%;
+}
+
+.navbar-icon {
+margin-right: 0.5rem;
+transition: all 0.4s ease-out;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0;
+}
+
+.nav-item{
+    margin-left: 13%;
+    height: 100%;
+    padding-top: 9%;
+}
+
+.nav-item:hover::after {
+    content: "";
+    height: 35px;
+    width: 100%;
+    color: #FFFFFF;
+    border-bottom: 3px solid #E0752F;
+    display: block;
+}
+
+
+.nav-links {
+    text-decoration: none;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    cursor: pointer;
+}
+
+.fa-bars {
+color: #373334;
+}
+
+.menu-icon {
+display: none;
+}
