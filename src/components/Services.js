@@ -1,13 +1,13 @@
 import info from './data/services.json';
 
 function Services() {
-  const servicios = info.[0].services;
+  const servicios = info[0].services;
     return (
       <div className="container-fluid contenedores services" id="services">
         <div className="row rowse">
           <div className="col-md-12">
-            <h1 className="title__general title__services">{info.[0].title}</h1>
-            <p className="subtitle__general subtitle__services">{info.[0].subtitle}</p>
+            <h1 className="title__general title__services">{info[0].title}</h1>
+            <p className="subtitle__general subtitle__services">{info[0].subtitle}</p>
           </div>
         </div>
         <div className="row rowse">

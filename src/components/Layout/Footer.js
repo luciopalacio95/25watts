@@ -1,21 +1,21 @@
-import info from './data/footer.json';
+import info from '../data/footer.json';
 import { Link} from "react-scroll";
 function Footer() {
-  const social = info.[0].social;
-  const navegations = info.[0].navegation;
+  const social = info[0].social;
+  const navegations = info[0].navegation;
     return (
       <div className="container-fluid contenedores footer">
           <div className="row rowse">
             <div className="col-md-3">
             <a href="https://www.25watts.com.ar/" target="_blank" rel="noreferrer">
-              <img src={info.[0].logo} className="img__footer" alt="25watts"/>
+              <img src={info[0].logo} className="img__footer" alt="25watts"/>
             </a>
-              <p className="coopiright__footer">{info.[0].coopiright}</p>
+              <p className="coopiright__footer">{info[0].coopiright}</p>
             </div>
             <div className="col-md-4">
               <div className="row rowse">
               {navegations.map((item, i) => 
-                <div className="col-md-6">
+                <div className="col-md-6" key={i}>
                   <Link
                       to={item.link}
                       spy={true}
@@ -31,7 +31,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-md-5">
-              <h2 className="follow__footer">{info.[0].text_social}</h2>
+              <h2 className="follow__footer">{info[0].text_social}</h2>
               <div className="content__social">
               {social.map((item, i) => 
                 <a href={item.link} rel="noreferrer" target="_blank" key={i}>

@@ -1,0 +1,46 @@
+[
+    {
+      "title": "Products",
+      "subtitle": "In eget tortor tempor mollis purus",
+      "left_arrow" : "./images/Icon awesome-chevron-left.svg",
+      "right_arrow" : "./images/Icon awesome-chevron-right.svg",
+      "products": [
+        {
+            "title" : "Aliquam at dui lorem ipsum",
+            "list" : [
+                "Ut mattis gravida efficitur.","Ut feugiat vehicula nibh, efficitur laoreet justo.","Molestie id. Integer varius enim sit amet egestas.","Ut mattis gravida efficitur."
+            ]
+        },
+        {
+            "title" : "Aliquam at dui lorem ipsum",
+            "list" : [
+                "Ut mattis gravida efficitur.","Ut feugiat vehicula nibh, efficitur laoreet justo.","Molestie id. Integer varius enim sit amet egestas.","Ut mattis gravida efficitur."
+            ]
+        },
+        {
+            "title" : "Aliquam at dui lorem ipsum",
+            "list" : [
+                "Ut mattis gravida efficitur.","Ut feugiat vehicula nibh, efficitur laoreet justo.","Molestie id. Integer varius enim sit amet egestas.","Ut mattis gravida efficitur."
+            ]
+        },
+        {
+            "title" : "Aliquam at dui lorem ipsum",
+            "list" : [
+                "Ut mattis gravida efficitur.","Ut feugiat vehicula nibh, efficitur laoreet justo.","Molestie id. Integer varius enim sit amet egestas.","Ut mattis gravida efficitur."
+            ]
+        },
+        {
+            "title" : "Aliquam at dui lorem ipsum",
+            "list" : [
+                "Ut mattis gravida efficitur.","Ut feugiat vehicula nibh, efficitur laoreet justo.","Molestie id. Integer varius enim sit amet egestas.","Ut mattis gravida efficitur."
+            ]
+        },
+        {
+            "title" : "Aliquam at dui lorem ipsum",
+            "list" : [
+                "Ut mattis gravida efficitur.","Ut feugiat vehicula nibh, efficitur laoreet justo.","Molestie id. Integer varius enim sit amet egestas.","Ut mattis gravida efficitur."
+            ]
+        }
+      ]
+    }
+  ]

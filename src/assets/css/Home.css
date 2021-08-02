@@ -1,0 +1,55 @@
+.home{
+    width: 100%;
+}
+.img__slider__home{
+    width: 100%;
+}
+.info__slider__home{
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 101px;
+    width: 42%;
+    z-index: 5;
+    text-align: start;
+}
+.title__home{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-48) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0-67);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 600 48px/48px Poppins;
+    letter-spacing: 0.67px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.subtitle__home{
+    width: 60%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 6%;
+}
+.carousel__home .control-dots{
+    position: absolute;
+    margin-bottom: 9%;
+    margin-left: 101px;
+    z-index: 5;
+    text-align: start;
+}
+
+.carousel__home .control-dots .dot{
+    width: 10px;
+    height: 10px;
+    box-shadow: none;
+    opacity: .7;
+}
+
+.carousel__home .control-dots .dot.selected{
+    background-color: #E0752F;
+}
+

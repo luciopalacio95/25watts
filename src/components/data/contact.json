@@ -2,7 +2,6 @@
     {
       "title": "Get in touch",
       "subtitle": "We are hiring!",
-      "img_src" : "./images/image2x.png",
-      "btn_text" : "Send"
+      "img_src" : "./images/image2x.png"
     }
   ]
