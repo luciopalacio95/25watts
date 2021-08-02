@@ -1,7 +1,7 @@
 .about{
     top: 1440px;
     left: 0px;
-    width: 1366px;
+    width: 100%;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -28,4 +28,18 @@
     margin-top: 10%;
     text-align: left;
     padding-right: 14%;
+}
+
+@media (max-width: 768px) {
+    .img__about{
+        width: 100%;
+    }
+    .subtitle__about {
+        padding-right: 0;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    .line__about {
+        height: 442px;
+    }
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import info from '../data/footer.json';
 import { Link} from "react-scroll";
 function Footer() {

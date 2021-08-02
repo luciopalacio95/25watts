@@ -1,3 +1,4 @@
+import React from 'react';
 import info from './data/home.json';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader

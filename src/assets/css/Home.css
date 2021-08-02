@@ -53,3 +53,22 @@
     background-color: #E0752F;
 }
 
+@media (max-width: 768px) {
+    .info__slider__home {
+        margin-left: 60px;
+        width: 45%;
+        margin-top: -38%;
+    }
+    .title__home{
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    .subtitle__home{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .carousel__home .control-dots {
+        margin-bottom: 2%;
+        margin-left: 60px;
+    }
+}

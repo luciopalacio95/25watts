@@ -1,3 +1,4 @@
+import React from 'react';
 import info from './data/services.json';
 
 function Services() {

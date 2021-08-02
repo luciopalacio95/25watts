@@ -8,7 +8,7 @@ const Form = ({ submitForm }) => {
     validate
   );
   return (
-    <>
+    <div>
       <div className="form-content">
         <form className="form" onSubmit={handleSubmit}>
           <div className="form-row">
@@ -86,7 +86,7 @@ const Form = ({ submitForm }) => {
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 

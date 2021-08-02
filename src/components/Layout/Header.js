@@ -37,7 +37,7 @@ function Header() {
 
   const navegations = info[0].navegation;
     return (
-      <>
+      <div>
         <IconContext.Provider value={{ color: "#373334" }}>
           <div className={`navbar ${navbar && "active"}`}>
             <div className="navbar-container container-fluid">
@@ -74,7 +74,7 @@ function Header() {
             </div>
           </div>
         </IconContext.Provider>
-      </>
+      </div>
     );
   }
   

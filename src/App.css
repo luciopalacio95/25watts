@@ -130,3 +130,12 @@ body{
   a:hover{
     color: #E0752F !important;
   }
+
+@media (max-width: 768px) {
+  .title__general {
+    font-size: 2rem;
+  }
+  .rowse {
+    padding: 0 4%;
+  }
+}

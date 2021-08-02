@@ -94,3 +94,14 @@
 .react-multiple-carousel__arrow__right {
     right: calc(-1% + 5px);
 }
+
+@media (max-width: 768px) {
+    .subtitle__products{
+        font-size: 1.5rem;
+    }
+    .content__product__item {
+        width: 253px;
+        padding: 8% 6%;
+        margin: 10% 4%;
+    }
+}

@@ -33,3 +33,12 @@
 #content__details{
     padding: 0 13%;
 }
+
+@media (max-width: 768px) {
+    .subtitle__details{
+        width: 100%;
+    }
+    #content__details {
+        padding: 0 4%;
+    }
+}

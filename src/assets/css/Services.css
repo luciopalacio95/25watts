@@ -37,3 +37,18 @@
     opacity: 1;
     padding: 0 8%;
 }
+
+@media (max-width: 768px) {
+    .subtitle__services {
+        width: 100%;
+    }
+    .text__service{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .services {
+        height: 100%;
+    }
+}

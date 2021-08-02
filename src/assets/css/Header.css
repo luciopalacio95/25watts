@@ -87,3 +87,21 @@ color: #373334;
 .menu-icon {
 display: none;
 }
+
+@media (max-width: 768px) {
+    .navbar-logo-icon, .navbar.active .navbar-logo .navbar-logo-icon{
+        width: 100px;
+        height: 20px;
+    }
+    .nav-item {
+        margin-left: 9%;
+        height: 84%;
+        padding-top: 6%;
+    }
+    .navbar-container {
+        height: 72px;
+    }
+    .nav-item:hover::after {
+        height: 26px;
+    }
+}

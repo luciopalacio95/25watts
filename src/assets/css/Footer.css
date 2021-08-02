@@ -58,3 +58,29 @@
     cursor: pointer;
     line-height: 2.15;
 }
+
+@media (max-width: 768px) {
+    .contact{
+        background: linear-gradient(
+            90deg
+            , #F2F4F1 73%, #DCE1DA 57%);
+    }
+    .img__footer{
+        width: 100px;
+        height: 20px;
+    }
+    .footer {
+        padding: 5% 2%;
+    }
+    .icon__social {
+        width: 25px;
+        height: 50px;
+    }
+    .coopiright__footer {
+        margin-top: 33%;
+        font-size: 12px;
+    }
+    .content__social {
+        margin-top: 10%;
+    }
+}

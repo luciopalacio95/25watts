@@ -1,3 +1,4 @@
+import React from 'react';
 import info from './data/products.json';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

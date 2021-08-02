@@ -1,3 +1,4 @@
+import React from 'react';
 import info from './data/details.json';
 
 function Details() {

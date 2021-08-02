@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from './components/Layout/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -20,7 +21,7 @@ import './assets/css/Footer.css';
 
 function App() {
   return (
-    <>
+    <div>
     <Header/>
     <Home/>
     <About/>
@@ -29,7 +30,7 @@ function App() {
     <Details/>
     <Contact/>
     <Footer/>
-    </>
+    </div>
   );
 }
 
