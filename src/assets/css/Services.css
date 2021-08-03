@@ -51,4 +51,7 @@
     .services {
         height: 100%;
     }
+    .icon__service {
+        margin: 20% auto 5%;
+    }
 }

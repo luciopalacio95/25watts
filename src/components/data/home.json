@@ -3,18 +3,21 @@
         "sliders": [
             {
                 "image_src" : "./images/slide1-background2x.png",
+                "image_src_mobile" : "./images/slide1-background2x-mobile.png",
                 "title" : "Sed ut perspiciatis unde omnis iste natus",
                 "subtitle" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
                 "btn_text" : "Read more"
             },
             {
                 "image_src" : "./images/slide2-background2x.png",
+                "image_src_mobile" : "./images/slide2-background2x-mobile.png",
                 "title" : "Proin elementum massa et felis",
                 "subtitle" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
                 "btn_text" : "Read more"
             },
             {
                 "image_src" : "./images/slide3-background2x.png",
+                "image_src_mobile" : "./images/slide3-background2x-mobile.png",
                 "title" : "Nulla rhoncus vulputate congue",
                 "subtitle" : "Aenean rutrum eros nec iacus vehicula, semper euismod dui aliquam.",
                 "btn_text" : "Read more"

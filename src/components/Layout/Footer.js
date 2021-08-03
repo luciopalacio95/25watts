@@ -7,7 +7,7 @@ function Footer() {
     return (
       <div className="container-fluid contenedores footer">
           <div className="row rowse">
-            <div className="col-md-3">
+            <div className="col-md-3 contenido-1">
               <Link
                 to="home"
                 spy={true}
@@ -19,7 +19,7 @@ function Footer() {
               </Link>
               <p className="coopiright__footer">{info[0].coopiright}</p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 contenido-2">
               <div className="row rowse">
               {navegations.map((item, i) => 
                 <div className="col-md-6" key={i}>
@@ -37,7 +37,7 @@ function Footer() {
                 )}
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 contenido-3">
               <h2 className="follow__footer">{info[0].text_social}</h2>
               <div className="content__social">
               {social.map((item, i) => 

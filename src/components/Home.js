@@ -26,7 +26,7 @@ function Home() {
                   >
             {sliders.map((item, i) => 
               <div key={i}>
-                <img src={item.image_src} className="img__slider__home" alt="25watts"/>
+                <img src={(window.innerWidth <= 480) ? item.image_src_mobile : item.image_src } className="img__slider__home" alt="25watts"/>
                   <div className="info__slider__home">
                   <h1 className="title__home">{item.title}</h1>
                   <p className="subtitle__home">{item.subtitle}</p>

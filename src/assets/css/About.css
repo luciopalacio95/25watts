@@ -43,3 +43,12 @@
         height: 442px;
     }
 }
+@media (max-width: 480px){
+    .line__about {
+        height: 61.8rem;
+        width: 12px;
+    }
+    .img__about {
+        margin-bottom: 18%;
+    }
+}
