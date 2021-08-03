@@ -89,10 +89,10 @@
 }
 
 .react-multiple-carousel__arrow__left {
-    left: calc(-1% + 5px);
+    left: calc(-1% + 8px);
 }
 .react-multiple-carousel__arrow__right {
-    right: calc(-1% + 5px);
+    right: calc(-1% + 8px);
 }
 
 @media (max-width: 768px) {
